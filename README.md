@@ -1,4 +1,4 @@
-# Underwater Fish Detection — VS Code Project
+# Underwater Fish Detection 
 
 This project runs your already-trained YOLO fish detector in a Streamlit web app.
 The trained model is included at `weights/best.pt`, so you do **not** need to
@@ -6,9 +6,8 @@ download the Roboflow dataset or train the model again just to run the app.
 
 ## 1. Open the project
 
-1. Extract `Underwater_Fish_Detection_VSCode.zip`.
-2. Open the extracted `Underwater_Fish_Detection_VSCode` folder in VS Code.
-3. Open **Terminal → New Terminal**.
+1. Open the  `Underwater_Fish_Detection` folder in VS Code.
+2. Open **Terminal → New Terminal**.
 
 ## 2. Create and activate a virtual environment (Windows)
 
@@ -56,11 +55,4 @@ Underwater_Fish_Detection_VSCode/
     └── best.pt
 ```
 
-## Important
 
-- `best.pt` is your trained model. Keep it inside the `weights` folder.
-- The app uses the model you uploaded; it does not retrain it.
-- The Roboflow API key is not needed to run this inference app.
-- Detection count depends on image quality, model training data, and the
-  selected confidence threshold. Lowering the threshold can increase detections
-  but may also create false positives.
